@@ -197,7 +197,6 @@ else:
     SPAMWATCH_API = Config.SPAMWATCH_API
     INFOPIC = Config.INFOPIC
 
-    REM_BG_API_KEY = Config.REM_BG_API_KEY
 
     try:
         BL_CHATS = {int(x) for x in Config.BL_CHATS or []}
