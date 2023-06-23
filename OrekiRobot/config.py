@@ -29,7 +29,7 @@ class Config(object):
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://wsphktgr:MejtrepyRRzVMeHiOyfTpgm8ks0f2yAb@lallah.db.elephantsql.com/wsphktgr"  # needed for any database modules
-    DB_URL = "mongodb+srv://newsenzu:<password>@cluster0.m1mw8vk.mongodb.net/?retryWrites=true&w=majority"
+    DB_URL = "mongodb+srv://newsenzu:newsenzu@cluster0.m1mw8vk.mongodb.net/?retryWrites=true&w=majority"
     REDIS_URL = ""
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
