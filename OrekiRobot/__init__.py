@@ -197,8 +197,6 @@ else:
     SPAMWATCH_API = Config.SPAMWATCH_API
     INFOPIC = Config.INFOPIC
 
-    OPENWEATHERMAP_ID = Config.OPENWEATHERMAP_ID
-
     REM_BG_API_KEY = Config.REM_BG_API_KEY
 
     try:
