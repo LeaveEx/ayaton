@@ -28,8 +28,8 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://wsphktgr:MejtrepyRRzVMeHiOyfTpgm8ks0f2yAb@lallah.db.elephantsql.com/wsphktgr  # needed for any database modules
-    DB_URL = "postgresql://postgres:IE2wA6q9yKhLpaqeJ0RT@containers-us-west-17.railway.app:5819/railway"
+    SQLALCHEMY_DATABASE_URI = "postgres://wsphktgr:MejtrepyRRzVMeHiOyfTpgm8ks0f2yAb@lallah.db.elephantsql.com/wsphktgr"  # needed for any database modules
+    DB_URL = "mongodb+srv://newsenzu:<password>@cluster0.m1mw8vk.mongodb.net/?retryWrites=true&w=majority"
     REDIS_URL = ""
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
