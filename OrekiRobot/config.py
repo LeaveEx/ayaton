@@ -98,22 +98,22 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1234567  # integer value, dont use ""
-    API_HASH = "12345abcdefg23459"
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 5534661034  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Awesome_Gtashxd"
-    SUPPORT_CHAT = "Gtash_Association"  # Your own group for support, do not add the @
+    API_ID = 3330416  # integer value, dont use ""
+    API_HASH = "551d747d492ad11a10054fbf672d16e3"
+    TOKEN = "5262608425:AAEbUDcE2inIrSqmzdSTTJUDlVHeZF5pJw8"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1680004937  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "itsmeleave"
+    SUPPORT_CHAT = "senzusupp"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001852609544
+        -1001600598969
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001852609544
+        -1001561812932
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
-    DB_URL = ""
+    SQLALCHEMY_DATABASE_URI = "postgres://wsphktgr:MejtrepyRRzVMeHiOyfTpgm8ks0f2yAb@lallah.db.elephantsql.com/wsphktgr"  # needed for any database modules
+    DB_URL = "mongodb+srv://newsenzu:newsenzu@cluster0.m1mw8vk.mongodb.net/?retryWrites=true&w=majority"
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
